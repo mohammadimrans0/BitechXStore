@@ -70,7 +70,7 @@ const DisplayCategory: React.FC<DisplayCategoryProps> = ({
                 selectedCategory === category.id ? null : category.id
               )
             }
-            className={`relative cursor-pointer group rounded-full w-28 h-28 sm:w-32 sm:h-32 overflow-hidden border-2 transition-all duration-300 border-red-500 ${
+            className={`relative cursor-pointer group rounded-full w-28 h-28 sm:w-32 sm:h-32 overflow-hidden border-3 transition-all duration-300 border-[#AD8A64] ${
               selectedCategory === category.id
                 ? 'ring-4 ring-[#AD8A64]/70 scale-105'
                 : 'hover:ring-2 hover:ring-[#AD8A64]/40'
